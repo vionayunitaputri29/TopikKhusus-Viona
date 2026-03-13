@@ -28,7 +28,7 @@ class OrderItem(BaseModel):
     notes: Optional[str] = Field(None, example="Less sugar")
 
 class OrderCreate(BaseModel):
-    customer_name: str = Field(..., min_length=2, example="Annisa")
+    customer_name: str = Field(..., min_length=2, example="Dilaaaa")
     items: List[OrderItem]
 
 # --- Endpoints ---
